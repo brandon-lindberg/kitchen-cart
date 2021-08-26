@@ -161,3 +161,14 @@
 .uppercase {
   text-transform: uppercase;
 }
+
+@media (max-width: 450px) {
+  .food_cart-content .heart-icon {
+    position: absolute;
+    right: -5px;
+    top: -10px;
+  }
+  .food_cart-content {
+    display: grid; 
+  }
+}
